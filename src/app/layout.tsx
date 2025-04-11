@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { figtree } from "./font";
+import { workSans } from "./font";
 
 export const metadata: Metadata = {
   title: "This is my FE MENTOR",
@@ -14,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={` ${figtree.variable} antialiased`}>{children}</body>
+      <body className={` ${workSans.variable} antialiased`}>{children}</body>
     </html>
   );
 }

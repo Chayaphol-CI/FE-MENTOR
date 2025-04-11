@@ -1,4 +1,10 @@
-import { Figtree, Inter, Outfit, Young_Serif } from "next/font/google";
+import {
+  Figtree,
+  Inter,
+  Outfit,
+  Work_Sans,
+  Young_Serif,
+} from "next/font/google";
 
 const youngSerif = Young_Serif({
   variable: "--font-young-serif",
@@ -24,4 +30,10 @@ const figtree = Figtree({
   weight: ["400", "700", "800"],
 });
 
-export { youngSerif, outFit, inter, figtree };
+const workSans = Work_Sans({
+  variable: "--font-work-sans",
+  subsets: ["latin"],
+  weight: ["400", "600", "700"],
+});
+
+export { youngSerif, outFit, inter, figtree, workSans };
