@@ -1,6 +1,8 @@
 import {
   Figtree,
+  Fraunces,
   Inter,
+  Manrope,
   Outfit,
   Work_Sans,
   Young_Serif,
@@ -36,4 +38,16 @@ const workSans = Work_Sans({
   weight: ["400", "600", "700"],
 });
 
-export { youngSerif, outFit, inter, figtree, workSans };
+const fraunces = Fraunces({
+  variable: "--font-fraunces",
+  subsets: ["latin"],
+  weight: ["400", "600", "700"],
+});
+
+const manrope = Manrope({
+  variable: "--font-manrope",
+  subsets: ["latin"],
+  weight: ["400", "600", "700"],
+});
+
+export { youngSerif, outFit, inter, figtree, workSans, fraunces, manrope };

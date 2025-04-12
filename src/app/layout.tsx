@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { workSans } from "./font";
+import { fraunces, manrope } from "./font";
 
 export const metadata: Metadata = {
   title: "This is my FE MENTOR",
@@ -14,7 +14,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={` ${workSans.variable} antialiased`}>{children}</body>
+      <body className={`${fraunces.variable} ${manrope.variable} antialiased`}>
+        {children}
+      </body>
     </html>
   );
 }
