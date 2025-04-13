@@ -1,0 +1,60 @@
+@theme {
+  --breakpoint-xs: 375px;
+
+  --color-ppcc-black: #1c232b;
+  --color-ppcc-grey: #6c7289;
+  --color-ppcc-cream: #f2eae2;
+  --color-ppcc-green500: #3d8168;
+  --color-ppcc-green700: #1a4032;
+
+  --spacing-500: 40px;
+  --spacing-300: 24px;
+  --spacing-200: 16px;
+  --spacing-150: 12px;
+  --spacing-100: 8px;
+  --spacing-50: 4px;
+}
+
+@layer components {
+  .flex-center {
+    @apply flex justify-center items-center;
+  }
+}
+
+@layer utilities {
+  .text-preset-1 {
+    font-family: var(--font-fraunces);
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: 0px;
+    font-weight: 700;
+  }
+  .text-preset-2 {
+    font-family: var(--font-montserrat);
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0px;
+    font-weight: 700;
+  }
+  .text-preset-3 {
+    font-family: var(--font-montserrat);
+    font-size: 14px;
+    line-height: 1.6;
+    letter-spacing: 0px;
+    font-weight: 500;
+  }
+  .text-preset-4 {
+    font-family: var(--font-montserrat);
+    font-size: 12px;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    font-weight: 500;
+  }
+  .text-preset-5 {
+    font-family: var(--font-montserrat);
+    font-size: 13px;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    font-weight: 500;
+  }
+}

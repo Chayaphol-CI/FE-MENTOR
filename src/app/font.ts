@@ -4,6 +4,7 @@ import {
   Hanken_Grotesk,
   Inter,
   Manrope,
+  Montserrat,
   Outfit,
   Work_Sans,
   Young_Serif,
@@ -50,10 +51,17 @@ const manrope = Manrope({
   subsets: ["latin"],
   weight: ["400", "600", "700"],
 });
+
 const hankenGrotesk = Hanken_Grotesk({
   variable: "--font-hanken-grotesk",
   subsets: ["latin"],
   weight: ["400", "600", "700", "800"],
+});
+
+const montserrat = Montserrat({
+  variable: "--font-montserrat",
+  subsets: ["latin"],
+  weight: ["500", "700"],
 });
 
 export {
@@ -65,4 +73,5 @@ export {
   fraunces,
   manrope,
   hankenGrotesk,
+  montserrat,
 };
