@@ -1,6 +1,7 @@
 import {
   Figtree,
   Fraunces,
+  Hanken_Grotesk,
   Inter,
   Manrope,
   Outfit,
@@ -49,5 +50,19 @@ const manrope = Manrope({
   subsets: ["latin"],
   weight: ["400", "600", "700"],
 });
+const hankenGrotesk = Hanken_Grotesk({
+  variable: "--font-hanken-grotesk",
+  subsets: ["latin"],
+  weight: ["400", "600", "700", "800"],
+});
 
-export { youngSerif, outFit, inter, figtree, workSans, fraunces, manrope };
+export {
+  youngSerif,
+  outFit,
+  inter,
+  figtree,
+  workSans,
+  fraunces,
+  manrope,
+  hankenGrotesk,
+};

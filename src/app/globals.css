@@ -1,9 +1,5 @@
 @import "tailwindcss";
-@import "./workit.css";
-/* @import "./faq.css"; */
-/* @import "./blockpc.css"; */
-/* @import "./slp.css"; */
-/* @import "./receip_page/receipt_page.css"; */
+@import "./result_sum.css";
 
 :root {
   --background: #ffffff;

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { fraunces, manrope } from "./font";
+import { hankenGrotesk } from "./font";
 
 export const metadata: Metadata = {
   title: "This is my FE MENTOR",
@@ -14,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${fraunces.variable} ${manrope.variable} antialiased`}>
+      <body className={`${hankenGrotesk.variable} antialiased`}>
         {children}
       </body>
     </html>
