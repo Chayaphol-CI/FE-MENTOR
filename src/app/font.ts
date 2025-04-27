@@ -6,6 +6,7 @@ import {
   Manrope,
   Montserrat,
   Outfit,
+  Overpass,
   Work_Sans,
   Young_Serif,
 } from "next/font/google";
@@ -64,7 +65,14 @@ const montserrat = Montserrat({
   weight: ["500", "700"],
 });
 
+const overpast = Overpass({
+  variable: "--font-overpast",
+  subsets: ["latin"],
+  weight: ["400", "600", "700"],
+});
+
 export {
+  overpast,
   youngSerif,
   outFit,
   inter,

@@ -1,0 +1,76 @@
+@theme {
+  --breakpoint-xs: 376px;
+
+  --color-r-grey950: #131518;
+  --color-r-grey900: #262e38;
+  --color-r-grey500: #969fad;
+  --color-r-orange500: #fc7614;
+}
+
+@layer components {
+  .flex-center {
+    @apply flex items-center justify-center;
+  }
+}
+
+@layer utilities {
+  .bg-gradient-dark {
+    background-image: linear-gradient(to bottom, #232a34, #181e27);
+  }
+  .text-preset-1 {
+    font-family: var(--font-overpast);
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0px;
+  }
+  .text-preset-2 {
+    font-family: var(--font-overpast);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0px;
+  }
+  .text-preset-3 {
+    font-family: var(--font-overpast);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+  }
+  .text-preset-4-bold {
+    font-family: var(--font-overpast);
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 2px;
+  }
+  .text-preset-4-reg {
+    font-family: var(--font-overpast);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+  }
+  .text-preset-5-bold {
+    font-family: var(--font-overpast);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 1.87px;
+  }
+  .text-preset-5-semi-bold {
+    font-family: var(--font-overpast);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.17px;
+  }
+  .text-preset-5-reg {
+    font-family: var(--font-overpast);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+  }
+}
